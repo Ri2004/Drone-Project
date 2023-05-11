@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Welcome to Drone World" />
+    <meta property="og:description" content="Drone World" />
+    <meta property="og:image" content="drone.webp" />
+    <meta property="og:url" content="http://127.0.0.1:5500/index.html" />
+    <meta name="author" content="Rishabh Chatterjee" />
+    <meta name="description" content="Drone World" />
+    <link rel="icon" type="image/x-icon" href="favicon.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Open+Sans:ital,wght@0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Drone World</title>
+    <style>
+      html {
+        font-family: "Kalam", sans-serif;
+      }
+      th,
+      td {
+        text-align: center;
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="logo.png" alt="Logo.." height="110" width="100" />
+      <h1>Drone World</h1>
+      <form action="#">
+        <label for="Drones">Search:</label>
+        <input
+          type="search"
+          name="serach box"
+          id="Drones"
+          placeholder="Search for Drones"
+        />
+        <input type="submit" name="search" value="Go" />
+      </form>
+      <nav>
+        <ul style="list-style-type: none">
+          <li><a href="#">Home</a><br /></li>
+          <li><a href="#Product">Product</a><br /></li>
+          <li><a href="#Services">Services</a><br /></li>
+          <li><a href="#About">About</a><br /></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+
+    <main>
+      <section>
+        <h2>Welcome to Drone World</h2>
+        <p><b>Explore the skies with our high-quality drones</b></p>
+        <button type="button">
+          <a href="#Product">Shop now</a>
+        </button>
+        <figure>
+          <img
+            src="hero_image.webp"
+            alt="Hero image"
+            height="420"
+            width="750"
+            border="1"
+          />
+          <figcaption>DJI Drone shots</figcaption>
+        </figure>
+      </section>
+      <hr />
+
+      <section>
+        <h2 id="Product">Our Products</h2>
+        <p><b>Explore our high-quality RC drones</b></p>
+        <form action="#">
+          <label for="price"><ins>Price Range:</ins></label>
+          <input
+            type="range"
+            name="range"
+            id="price"
+            min="9,000"
+            max="60,000"
+          />
+        </form>
+        <br /><br />
+        <form action="#">
+          <label for="Drones"><ins>Available drones:</ins></label>
+          <select>
+            <option value="Phantom 4 Pro">Phantom 4 Pro</option>
+            <option value="Mavic Air 2">Mavic Air 2</option>
+            <option value="Spark">Spark</option>
+            <option value="Inspire 2">Inspire 2</option>
+          </select>
+        </form>
+
+        <ul>
+          <li>
+            <mark
+              ><b><em>Phantom 4 Pro</em></b></mark
+            ><br />
+            <img
+              src="./phantom.webp"
+              alt="phantom drone"
+              width="200"
+              border="3"
+            />
+            <p>
+              <b>Price:</b> &#8377;10,000 &emsp;&emsp;
+              <button type="button">
+                <a
+                  href="https://www.amazon.com/DJI-Professional-Quadcopter-Multirotor-CP-PT-000488/dp/B01MXLLDQ8?th=1"
+                  target="_blank"
+                  >Buy now</a
+                >
+              </button>
+              <br /><br />
+              <strong>Description:</strong> The Phantom 4 Pro is a
+              professional-grade drone that is perfect for captuting stunning
+              aerial footage.<br />It features a 4k camera with a 3-axis gimbal
+              for stable, smooth video and advanced obstacle avoidance
+              technology<br />
+              to help keep your drone safe.
+            </p>
+          </li>
+
+          <li>
+            <mark
+              ><b><em>Mavic Air 2</em></b></mark
+            ><br />
+            <img src="./mavic.webp" alt="mavic drone" width="200" border="3" />
+
+            <p>
+              <b>Price:</b> &#8377;15,000 &emsp;&emsp;
+              <button type="button">
+                <a
+                  href="https://www.amazon.com/DJI-Mavic-Air-Quadcopter-ActiveTrack/dp/B086X7QKHD?th=1"
+                  target="_blank"
+                  >Buy now</a
+                >
+              </button>
+              <br /><br />
+              <strong>Description:</strong> The Mavic Air 2 is a compact,
+              powerful drone that is great for novice and experienced pilots.<br />
+              It features a 48-megapixel camera and can fly for up to 34 minutes
+              on a single charge.
+            </p>
+          </li>
+          <li>
+            <mark
+              ><b><em>Spark</em></b></mark
+            ><br />
+            <img src="./spark.webp" alt="spark drone" width="200" border="3" />
+            <p>
+              <b>Price:</b> &#8377;25,000 &emsp;&emsp;
+              <button type="button">
+                <a
+                  href="https://www.amazon.com/DJI-Spark-Portable-Drone-Alpine/dp/B07173X82D?th=1"
+                  target="_blank"
+                  >Buy now</a
+                >
+              </button>
+              <br /><br />
+              <strong>Description:</strong> The Spark is a small but mighty
+              drone that is perfect for beginners. It features a 1080p camera
+              and<br />
+              can be controlled using hand gestures, making it a fun and
+              easy-to-use option for pilots of all skill levels.
+            </p>
+          </li>
+          <li>
+            <mark
+              ><b><em>Inspire 2</em></b></mark
+            ><br />
+            <img
+              src="./inspire.webp"
+              alt="inspire drone"
+              width="200"
+              border="3"
+            />
+            <p>
+              <b>Price:</b> &#8377;50,000 &emsp;&emsp;
+              <button type="button">
+                <a
+                  href="https://www.amazon.com/DJI-CP-BX-000166-Inspire-2-Drone/dp/B01MY2YDW9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Buy now</a
+                >
+              </button>
+              <br /><br />
+              <strong>Description:</strong> The Inspire 2 is a high-performance
+              drone that is designed for professional aerial cinematography.
+              It<br />features a 5.2K camera with interchangeable lenses and
+              advanced flight modes for maximum creative control.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <hr />
+      <section>
+        <h2 id="Services">Our Services</h2>
+        <p>
+          <b>We offer a range of drone-related services to meet your needs</b>
+        </p>
+
+        <table border="1" width="70%" style="border-collapse: collapse">
+          <thead>
+            <tr>
+              <th colspan="5">Services</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>Drone Sales</b></td>
+              <td colspan="4">
+                We offer a wide range of high-quality drones for sale, from
+                beginner models to<br />
+                advanced options with advanced features likes obstacle avoidance
+                and GPS navigation.
+              </td>
+            </tr>
+            <tr>
+              <td><b>Drone Rentals</b></td>
+              <td colspan="4">
+                if you're not ready to commit to buying a drone, we also offer
+                drone rentals.<br />
+                Our rentals program is perfect for special events, film
+                productions or anyone looking <br />to try out a drone before
+                making a purchase.
+              </td>
+            </tr>
+            <tr>
+              <td><b>Drone Repair</b></td>
+              <td colspan="4">
+                Accidents happen, and if your drone is in need of repair, our
+                team of experts is here to help.<br />We offer repair services
+                for a variety of issues, from broken propellers to damaged
+                cameras.
+              </td>
+            </tr>
+            <tr>
+              <td><b>Drone Training</b></td>
+              <td colspan="4">
+                If you're new to drones or want to improve your flying skills,
+                we offer drone training programs.<br />Our certified trainer to
+                help you master the basics and teach you advanced techniques
+                to<br />
+                take your flying to the next level.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <br />
+      <hr />
+      <section>
+        <h2 id="About">About Drone World</h2>
+        <p>
+          At Drone World, we're passionate about helping our customers explore
+          the skies with high-quality RC drones. Our mission is to provide
+          top-notch product and services that meet the needs of drone
+          enthusiasts and professionals alike. With a focus on innovation and
+          customer satisfaction, we're committed to delivering the best possible
+          experience for our customers. Our team of experts has years of
+          experience in the drone industry and is dedicated to providing
+          unparalled support and expertise to ensure that our customer get the
+          most out of their drones. Whether you're a beginner or an experienced
+          pilot, we're here to help you take your drone flying to the next
+          level.
+        </p>
+        <iframe
+          width="100%"
+          height="515"
+          src="https://www.youtube.com/embed/KCONWLnm7FQ"
+          title="YouTube video player"
+          frameborder="2"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <br />
+      <hr />
+      <section>
+        <h2 id="Contact">Ready to take to the skies</h2>
+        <p>
+          <strong
+            >Explore our website to learn more about our services and products,
+            or contact us to speak with one of our experts.</strong
+          >
+        </p>
+        <fieldset>
+          <legend><mark>Any Questions?</mark></legend>
+          <form action="https://formspree.io/f/xnqywboa" method="POST">
+            <label for="Name">Full Name:</label>
+            <input
+              type="text"
+              name="name"
+              id="Name"
+              placeholder="Enter Your Name"
+              size="20"
+              autofocus
+              autocomplete="off"
+              required
+            />
+            <br /><br />
+            <label for="Email">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="Email"
+              placeholder="abc@gmail.com"
+              autocomplete="off"
+              required
+            />
+            <br /><br />
+            <label for="Phone">Phone Number:</label>
+            <input
+              type="tel"
+              name="phone"
+              id="Phone"
+              placeholder="+915454545454"
+              maxlength="10"
+              required
+            />
+            <br /><br />
+            <label for="Drone_Models">Drone Model:</label>
+            <input
+              list="drones"
+              name="Drone List"
+              id="Drone_Models"
+              placeholder="Interested Drones"
+              autocomplete="off"
+            />
+            <datalist id="drones">
+              <option value="Phantom 4 Pro"></option>
+              <option value="Mavic Air 2"></option>
+              <option value="Spark"></option>
+              <option value="Inspire 2"></option>
+            </datalist>
+
+            <br /><br />
+            <label for="Queries">Other Queries:</label><br />
+            <textarea
+              rows="4"
+              cols="40"
+              placeholder="Share your query here"
+            ></textarea>
+            <br /><br />
+            <label for="Date & Time">Query Date & Time:</label>
+            <input
+              type="datetime-local"
+              name="Date & Time"
+              id="Date & Time"
+              min="2023-01-05 00:00:00"
+            />
+            <br /><br />
+            <button type="reset">Reset</button>
+            <input type="submit" name="submit" value="Contact us" />
+          </form>
+        </fieldset>
+      </section>
+    </main>
+    <br /><br />
+    <hr />
+    <hr />
+    <footer>
+      <p>
+        Contact with us:
+        <a
+          href="https://www.facebook.com/profile.php?id=100083649927541"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img src="facebook.webp" alt="facebook" height="30" width="30"
+        /></a>
+        &nbsp;
+        <a
+          href="https://instagram.com/rshbhchttrj?igshid=ZDdkNTZiNTM="
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img src="instagram.webp" alt="instagram" height="30" width="30"
+        /></a>
+        &nbsp;
+        <a
+          href="https://www.linkedin.com/in/rishabh-chatterjee-575951269"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img src="Linkedin.webp" alt="Linkedin" height="30" width="30"
+        /></a>
+      </p>
+      <p>
+        Copyright &#169;2023 All rights reserved | This template is made with
+        &#10084;&#65039; by Crazzy Coders | Email:
+        <a href="mailto:rishabhchatterjee1982@gmail.com"
+          >rishabhchatterjee1982@gmail.com</a
+        >
+        | Phone number: <a href="tel:+918032156910">+918032156910</a>
+      </p>
+    </footer>
+  </body>
+</html>
